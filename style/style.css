@@ -1,0 +1,39 @@
+@font-face {
+  font-family: ArialB;
+  src: url("../fonts/Arial-Bold.ttf");
+}
+
+@font-face {
+  font-family: ArialR;
+  src: url("../fonts/Arial-Regular.ttf");
+}
+
+@font-face {
+  font-family: GeorgiaB;
+  src: url("../fonts/Georgia-Bold.ttf");
+}
+
+@font-face {
+  font-family: GeorgiaR;
+  src: url("../fonts/Georgia-Regular.ttf");
+}
+
+:root {
+  --color-light-orange: #f1cdb3;
+  --color-light-gray: #cdcdcd;
+  --color-some-gray: #b2b2b2;
+  --color-black: #000000;
+  --color-light-black: #292929;
+  --color-white: #ffffff;
+  --color-dark-gray: #545454;
+  --color-gray: #4c4c4c;
+
+  --font-family-AB: ArialB, sans-serif;
+  --font-family-AR: ArialR, sans-serif;
+  --font-family-GB: GeorgiaB, sans-serif;
+  --font-family-GR: GeorgiaR, sans-serif;
+
+  --animation-speed: 0.4s;
+  --animation-func: ease;
+  --animation: var(--animation-speed) var(--animation-func);
+}
